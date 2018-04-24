@@ -1,0 +1,38 @@
+html
+  head
+    link(rel="stylesheet" href="estilos.css")
+    link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css", integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4", crossorigin="anonymous")
+    script(type="text/javascript" src="js/menu.js")
+
+  body
+    div.container-fluid
+    
+      header.row
+
+        div.col-lg-12
+          center
+            a.border-animation(href="#")
+              .border-animation__inner Pérate
+      
+      div
+        div#sidebar.sidebar
+          ul
+            li
+              a(href='#') Opción 1
+            li
+              a(href='#') Opción 2
+            li
+              a(href='#') Opción 3
+            li
+              a(href='#') Opción 4
+            li
+              a(href='#') Opción 5
+
+        div#contenido
+          a#abrir.abrir-cerrar(href="javascript:void(0)" onclick="mostrar()") Abrir Menu 
+            
+          a#cerrar.abrir-cerrar(href="#" onclick="ocultar()") Cerrar Menu
+
+        
+  
+    
